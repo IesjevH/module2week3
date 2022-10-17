@@ -4,14 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>workshop 1 week 3</title>
 </head>
 <body>
     <div id="container">
         <form action="doelbestand.php" method="post">
-            Voornaam: <input type="text" name="vnaam" /><br>
-            Achternaam: <input type="text" name="anaam" /><br>
+            Voornaam: <input type="text" name="vnaam" placeholder="voornaam" /><br>
+            Achternaam: <input type="text" name="anaam" placeholder="achternaam"/><br>
             <input type="submit" />
+            <input type="datetime-local" /><br>
+            <input type="time" /><br>
+            <input type="week" /><br>
+            <input type="month" /><br>
+
+            <input id="country" type="text" name="country" size="40" list="countries" />
+            <datalist id="countries">
+                <option value="Australia">
+                <option value="Canada">
+                <option value="Germany"> 
+                <option value="France">   
+                <option value="United Kingdom">
+                <option value="United States">
+            </datalist>
+
+            <input type="number" min="5" max="100" step="5" value="10">
+            <input type="e-mail" required placeholder="email">
+            <input type="file">
+            <input type="color">
         </form>
     </div>
 </body>
