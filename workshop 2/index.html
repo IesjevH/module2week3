@@ -11,7 +11,9 @@
 
 <body>
     <div id="head">
-
+        <div id="cblogo">
+           <b>cool blue</b>
+        </div>
     </div>
     <form>
         Type bestelling <input type="radio" id="typeb" name="particulier" value="particulier">
@@ -30,11 +32,38 @@
         Postcode <input type="text" id="postcode" placeholder="1234AB"><br>
 
         Huisnummer <input type="text" id="huisnummer" placeholder="Nr.">
-        <input type="text" id="toev." placeholder="Toev.">
+        <input type="text" id="toev." placeholder="Toev."><br>
 
-        Land <input type=""
+        Land <input type="hidden" placeholder="Nederland"><br>
 
+        Afleveradres <input type="radio" id="aflevera" name="afleveradres" value="Op bovenstaand adres bezorgen">
+        <label>Op bovenstaand adres bezorgen</label>
+        <input type="radio" id="aflevera" name="afleveradres" value="Op ander adres bezorgen">
+        <label>Op ander adres bezorgen</label><br>
 
+        E-mailadres <input type="text" id="emailadres"><br>
+
+        Telefoonnummer <input type="text" id="telefoonnummer"><br>
+
+        Geboortedatum <input type="date" id="geboortedatum"><br>
+
+        Verzendwijze factuur <input type="radio" id="verzendw." value="email">
+        <label>Factuur per e-mail</label>
+        <input type="radio" id="verzendw." value="bij bestelling">
+        <label>Factuur geprint bij de bestelling</label><br>
+
+        Nieuwsbrief <input type="checkbox" id="nieuwsbrief">
+        <label>Ja, ik wil de Coolblue-nieuwsbrief met 5,- cadeaubon voor mijn volgende bestelling</label><br>
+
+        Kleur verpakking <input type="color"><br>
+
+        Wachtwoord <input type="password" id="pwd" name="pwd">
+        <label for="pwd"></label><br>
+
+        Wachtwoord bevestigen <input type="password" id="pwd" name="pwd">
+        <label for="pwd"></label><br>
+
+        <input type="submit" placeholder="verder">
 
     </form>
 
