@@ -3,8 +3,9 @@
 }
 
 body { 
-   width: 1920px;
-   background-color: white;
+    width: 100%;
+    background-color: white;
+
 }
 
 #head {
@@ -22,6 +23,22 @@ body {
     width: 52px;
     height: 52px;
     margin-left: 14px;
-    margin-top: -8px;
+    margin-top: -9px;
     color: white;
+    text-align: center;
+    line-height: 15px;
+    overflow: hidden;
+}
+
+#logotekst {
+    margin-top: 11px;
+    font-size: 18px;
+}
+
+#gegevens {
+    margin-left: 95px;
+}
+
+#wat {
+    margin-left: 95px;
 }
