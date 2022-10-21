@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop2 - week3 - Coolblue</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div id="head">
+            <div id="cblogo">
+                <div id="logotekst">cool blue</div>
+            </div>
+        </div>
+    </header>
+    <content>
+        <div id="gegevens">
+            <b>JE GEGEVENS.</b>
+        </div>
+
+        <div id="wat">
+            Wat moet er op de factuur staan?
+        </div>
+
+        <form action="bestellen.php" method="get">
+
+            <div class="row">
+                <div class="left">
+                    <p>Type bestelling</p>
+                </div>
+                <div class="right">
+                    <p>
+                        <input type="radio" name="particulier_of_zakelijk" value="particulier">
+                        <label for="html">Particulier</label>
+                        <input type="radio" name="particulier_of_zakelijk" value="zakelijk">
+                        <label for="html">Zakelijk</label>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <p>Aanhef</p>
+                </div>
+                <div class="right">
+                    <p>
+                        <input type="radio" id="aanhef" name="aanhef" value="Dhr.">
+                        <label for="aanhef">Dhr.</label>
+                        <input type="radio" id="aanhef" name="aanhef" value="Mevr.">
+                        <label for="aanhef">Mevr.</label><br>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <p>Naam</p>
+                </div>
+                <div class="right">
+                    <p>
+                        <input type="text" id="voornaam" placeholder="Voornaam">
+                        <input type="text" id="Tussenv." placeholder="Tussenv.">
+                        <input type="text" id="Achternaam" placeholder="Achternaam"><br>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <p>Postcode</p>
+                </div>
+                <div class="right">
+                    <p>
+                        <input type="text" id="postcode" placeholder="1234AB"><br>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <p>Huisnummer</p>
+                </div>
+                <div class="right">
+                    <p>
+                        <input type="text" id="huisnummer" placeholder="Nr.">
+                        <input type="text" id="toev." placeholder="Toev."><br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <p>Land</p>
+                </div>
+                <div class="right">
+                    <p>
+                        Nederland
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <p>Afleveradres</p>
+                </div>
+                <div class="right">
+                    <p>
+                        <input type="radio" id="aflevera" name="afleveradres" value="Op bovenstaand adres bezorgen">
+                        <label>Op bovenstaand adres bezorgen</label>
+                        <input type="radio" id="aflevera" name="afleveradres" value="Op ander adres bezorgen">
+                        <label>Op ander adres bezorgen</label><br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <p>E-mailadres</p>
+                </div>
+                <div class="right">
+                    <p>
+                        <input type="text" id="emailadres"><br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <p>Telefoonnummer</p>
+                </div>
+                <div class="right">
+                    <p>
+                        <input type="tel" id="telefoonnummer"><br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <p>Geboortedatum</p>
+                </div>
+                <div class="right">
+                    <p>
+                        <input type="date"><br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <p>Verzendwijze factuur</p>
+                </div>
+                <div class="right">
+                    <p>
+                        <input type="radio" id="verzendw." value="email">
+                        <label>Factuur per e-mail</label>
+                        <input type="radio" id="verzendw." value="bij bestelling">
+                        <label>Factuur geprint bij de bestelling</label><br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <p>Nieuwsbrief</p>
+                </div>
+                <div class="right">
+                    <p>
+                        <input type="checkbox" id="nieuwsbrief">
+                        <label>Ja, ik wil de Coolblue-nieuwsbrief met 5,- cadeaubon voor mijn volgende
+                            bestelling</label><br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <p>Kleur verpakking</p>
+                </div>
+                <div class="right">
+                    <p>
+                        <input type="color"><br>
+                    </p>
+                </div>
+            </div>
+
+            <div id="bewaar">
+                <b>BEWAAR JE GEGEVENS.</b>
+            </div>
+
+            <div id="handig">
+                Handig voor de volgende keer.
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    <p>Wachtwoord</p>
+                </div>
+                <div class="right">
+                    <p>
+                        <input type="password"><br>
+                    <div id="wachtwoord"><br>
+                        Minimaal 6 karakters.<br>
+                        Verder doen we niet zo moeilijk.<br>
+                    </div>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="left">
+                    <p>Wachtwoord bevestigen</p>
+                </div>
+                <div class="right">
+                    <p>
+                        <input type="password"><br>
+                    </p>
+                </div>
+            </div>
+
+            <div id="verderbalk"></div>
+
+        </form>
+    </content>
+    <footer>
+        footer
+    </footer>
+</body>
+
+</html>
