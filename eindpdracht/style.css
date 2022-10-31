@@ -1,0 +1,68 @@
+* {
+    font-family: monospace;
+}
+
+body {
+    background-color:rgb(255, 219, 225)
+}
+
+#head {
+    background-color:rgb(255, 181, 193);
+    height: 70px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-bottom: 5px;
+}
+
+#logo {
+    background-color: rgb(255, 141, 160);
+    border: 2px solid black;
+    width: 240px;
+    height: 65px;
+    margin-left: 18px;
+    margin-top: 0px;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 19px;
+}
+
+#logotekst {
+    margin-top: 23px;
+    font-size: 25px;
+}
+
+#navigatie {
+    float: right;
+    margin-top: -25px;
+    margin-right: 7px;
+}
+
+#info {
+    font-size: 25px;
+    margin-left: 300px;
+    line-height: 0px;
+}
+
+#home {
+    margin-top: -35px;
+}
+
+#contact {
+    margin-top: -25px;
+    margin-left: 70px;
+}
+
+
+
+#search {
+    height: 20px;
+    width: 300px;
+}
+
+#leftbartop {
+    border: 2px solid black;
+    width: 250px;
+    height: 200px;
+    margin-left: 10px;
+}
