@@ -71,6 +71,13 @@ header {
 #fotos {
     margin-left: 230px;
     margin-top: 15px;
+    margin-bottom: 15px;
+    height: 330px;
+    width: 500px;
+    padding: 20px;
+    border: rgb(106, 203, 225) solid 2px;
+    border-radius: 1rem;
+
 }
 
 a:link { text-decoration: none; } 
@@ -81,8 +88,8 @@ a:hover, a:active {
     color: rgb(106, 203, 225);
   }
    
-  #sc {
-    margin-top: 20px;
+#sc {
+    margin-top: 100px;
     background-color: rgb(255, 181, 193);
     width: 95%;
     height: 120px;
@@ -100,4 +107,19 @@ a:hover, a:active {
 
 #klantenService {
     margin-left: 200px;
+}
+
+#productinfo {
+    margin-left: 230px;
+    font-size: 1.5rem;
+    
+}
+
+#productdetails {
+    margin-left: 230px;
+    font-size: 1.2rem;
+}
+
+#winkelmandje {
+    margin-left: 900px;
 }
