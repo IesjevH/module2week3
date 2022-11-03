@@ -36,13 +36,13 @@ header {
 }
 
 #navigatie {
-    margin-top: -25px;
+    margin-top: -45px;
     margin-left: 1050px;
 }
 
 #mand {
     margin-left: 1210px;
-    margin-top: -36px;
+    margin-top: -27px;
     display: flex;
 }
 
@@ -54,7 +54,7 @@ header {
 }
 
 #home {
-    margin-top: -85px;
+    margin-top: -80px;
     margin-left: 90px;
 }
 
@@ -69,21 +69,19 @@ header {
 }
 
 #fotos {
-   width: 550px; 
-   height: 400px;
-   margin-left: 190px;
-   margin-top: 30px;
-   margin-bottom: 50px;
-   padding: 40px;
-   border: 2px solid rgb(87, 87, 87);
-   border-radius: 1rem;
+    margin-left: 230px;
+    margin-top: 15px;
 }
 
 a:link { text-decoration: none; } 
 
 a:visited { text-decoration: none; }
 
-#sc {
+a:hover, a:active {
+    color: rgb(106, 203, 225);
+  }
+   
+  #sc {
     margin-top: 20px;
     background-color: rgb(255, 181, 193);
     width: 95%;

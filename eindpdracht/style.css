@@ -36,13 +36,13 @@ header {
 }
 
 #navigatie {
-    margin-top: -25px;
+    margin-top: -45px;
     margin-left: 1050px;
 }
 
 #mand {
     margin-left: 1210px;
-    margin-top: -36px;
+    margin-top: -27px;
     display: flex;
 }
 
@@ -54,7 +54,7 @@ header {
 }
 
 #home {
-    margin-top: -85px;
+    margin-top: -80px;
     margin-left: 90px;
 }
 
@@ -162,3 +162,11 @@ header {
 #klantenService {
     margin-left: 200px;
 }
+
+a:link { text-decoration: none; } 
+
+a:visited { text-decoration: none; }
+
+a:hover, a:active {
+    color: rgb(106, 203, 225);
+  }
