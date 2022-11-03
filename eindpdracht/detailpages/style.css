@@ -80,13 +80,19 @@ header {
 
 }
 
-a:link { text-decoration: none; } 
+a:link { 
+    text-decoration: none; 
+    color: black;
+} 
 
-a:visited { text-decoration: none; }
+a:visited { 
+    text-decoration: none; 
+    color: black;
+}
 
 a:hover, a:active {
     color: rgb(106, 203, 225);
-  }
+}
    
 #sc {
     margin-top: 100px;
