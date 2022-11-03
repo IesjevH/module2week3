@@ -110,8 +110,10 @@ a:hover, a:active {
     margin-bottom: -100px;
     height: 330px;
     width: 500px;
-    padding: 20px;
-    border: rgb(106, 203, 225) solid 2px;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: right;
+    border: rgb(0, 0, 0) solid 2px;
     border-radius: 1rem;
 
 }
@@ -129,6 +131,8 @@ a:hover, a:active {
 #winkelmandje {
     margin-top: 30px;
     margin-left: 800px;
-    width: 100px;
+    border-radius: 0.5rem;
+    border: none;
+    width: 120px;
     height: 30px;
 }
