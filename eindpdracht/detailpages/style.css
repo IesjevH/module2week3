@@ -113,8 +113,7 @@ a:hover, a:active {
     padding-top: 20px;
     padding-right: 20px;
     text-align: right;
-    border: rgb(0, 0, 0) solid 2px;
-    border-radius: 1rem;
+    border: rgb(166, 166, 166) solid 2px;
 }
 
 #productinfo {
@@ -130,15 +129,15 @@ a:hover, a:active {
 #winkelmandje {
     margin-top: 30px;
     margin-left: 850px;
-    border-radius: 0.5rem;
     width: 120px;
     height: 30px;
+    border: 2px solid rgb(159, 158, 158);
 }
 
 #fotoslinks {
     height: 400px;
     width: 150px;
-    border: 2px solid black;
+    border: 2px solid rgb(159, 158, 158);
     margin-top: -353px;
     margin-left: 20px;
     text-align: center;
