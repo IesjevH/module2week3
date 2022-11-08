@@ -16,6 +16,20 @@ form {
     margin-left: 100px;
 }
 
+a:link { 
+    text-decoration: none; 
+    color: black;
+} 
+
+a:visited { 
+    text-decoration: none; 
+    color: black;
+}
+
+a:hover, a:active {
+    color: rgb(106, 203, 225);
+}
+
 #head {
     background-color:rgb(255, 181, 193);
     height: 60px;
@@ -24,11 +38,16 @@ form {
     margin-bottom: 40px;
 }
 
+#logotekst {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
 #logo {
     background-color: rgb(255, 141, 160);
     width: 200px;
     height: 55px;
-    margin-left: 30px;
+    margin-left: 170px;
     color: white;
     text-align: center;
     padding-top: 5px;
@@ -42,7 +61,31 @@ form {
 
 .row  {
     text-align: left;
-    margin-left: -20px; 
+    margin-left: 20px; 
+    line-height: 5px;
+    font-size: 15px;
+}
+
+.left 
+{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 15px;
+    width: 30%;
+}
+
+.right
+{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    width: 70%;
+}
+
+#type {
+    font-size: 20px;
+    margin-left: 120px;
 }
 
 #voornaam {
