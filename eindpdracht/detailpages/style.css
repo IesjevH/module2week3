@@ -126,6 +126,10 @@ a:hover, a:active {
     font-size: 1.2rem;
 }
 
+#productprice {
+    font-size: 15px;
+}
+
 #winkelmandje {
     margin-top: 30px;
     margin-left: 850px;
