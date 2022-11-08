@@ -73,7 +73,7 @@ a:hover, a:active {
 .left  {
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: left;
     margin-right: 15px;
     width: 30%;
 }
@@ -81,7 +81,8 @@ a:hover, a:active {
 .right  {
     display: flex;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 0px;
+    margin-bottom: 20px;
     width: 70%;
 }
 
@@ -109,6 +110,10 @@ a:hover, a:active {
     height: 20px;
 }
 
+#straat {
+    height: 20px;
+}
+
 #postcode {
     padding-left: 3px;
     height: 20px;
@@ -118,6 +123,10 @@ a:hover, a:active {
     padding-left: 3px;
     height: 20px;
     width: 45px;
+}
+
+#woonplaats {
+    height: 20px;
 }
 
 #toev {
@@ -137,5 +146,13 @@ a:hover, a:active {
 }
 
 #verderbalk {
-    margin-top: 10px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+#verder {
+    height: 30px;
+    width: 70px;
+    background-color:rgb(255, 181, 193);
+    border: 1px solid black;
 }
