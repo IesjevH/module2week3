@@ -59,15 +59,18 @@ a:hover, a:active {
     font-size: 25px;
 }
 
+.row > div {
+    height: 25px; 
+}
+
 .row  {
     text-align: left;
-    margin-left: 20px; 
+    margin-left: 120px; 
     line-height: 5px;
     font-size: 15px;
 }
 
-.left 
-{
+.left  {
     display: flex;
     align-items: center;
     justify-content: right;
@@ -75,17 +78,17 @@ a:hover, a:active {
     width: 30%;
 }
 
-.right
-{
+.right  {
     display: flex;
     align-items: center;
-    margin-left: 15px;
+    margin-left: 150px;
     width: 70%;
 }
 
 #type {
     font-size: 20px;
     margin-left: 120px;
+    margin-bottom: -10px;
 }
 
 #voornaam {
@@ -131,4 +134,8 @@ a:hover, a:active {
 #telefoonnummer {
     width: 110px;
     height: 20px;
+}
+
+#verderbalk {
+    margin-top: 10px;
 }
