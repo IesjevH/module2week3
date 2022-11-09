@@ -145,6 +145,11 @@ a:hover, a:active {
     height: 20px;
 }
 
+#telefoonnummer {
+    width: 110px;
+    height: 20px;
+}
+
 #verderbalk {
     margin-top: 30px;
     text-align: left;

@@ -7,8 +7,9 @@ const huisnummer = document.getElementById("huisnummer");
 const toev = document.getElementById("toev");
 const postcode = document.getElementById("postcode");
 const woonplaats = document.getElementById("woonplaats");
+const telefoonnummer = document.getElementById("telefoonnummer");
 const emailadres = document.getElementById("emailadres");
-const Rekeningnummer = document.getElementById("Rekeningnummer");
+const rekeningnummer = document.getElementById("rekeningnummer");
 
 verzendButton.addEventListener("click", storeItems);
 
@@ -23,6 +24,7 @@ function storeItems(){
     localStorage.setItem("toev",toev.value)
     localStorage.setItem("postcode",postcode.value)
     localStorage.setItem("woonplaats",woonplaats.value)
+    localStorage.setItem("telefoonnummer",telefoonnummer.value)
     localStorage.setItem("emailadres",emailadres.value)
-    localStorage.setItem("Rekeningnummer",Rekeningnummer.value)
+    localStorage.setItem("rekeningnummer",rekeningnummer.value)
 }
