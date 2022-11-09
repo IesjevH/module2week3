@@ -65,7 +65,7 @@ a:hover, a:active {
 
 .row  {
     text-align: left;
-    margin-left: 120px; 
+    margin-left: 200px; 
     line-height: 5px;
     font-size: 15px;
 }
@@ -82,13 +82,13 @@ a:hover, a:active {
     display: flex;
     align-items: center;
     margin-left: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 70%;
 }
 
 #type {
     font-size: 20px;
-    margin-left: 120px;
+    margin-left: 200px;
     margin-bottom: -10px;
 }
 
@@ -140,7 +140,7 @@ a:hover, a:active {
     height: 20px;
 }
 
-#Rekeningnummer {
+#rekeningnummer {
     width: 110px;
     height: 20px;
 }
@@ -151,7 +151,7 @@ a:hover, a:active {
 }
 
 #verderbalk {
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: left;
 }
 
